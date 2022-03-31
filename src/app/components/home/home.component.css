@@ -1,19 +1,25 @@
 .elemento {
-    margin: 10px
+    margin: 10px;
+    display: inline-block
 }
 
 .contenedorMenu {
     background-color: rebeccapurple;
-    display: inline-block;
+    display: inline-flexbox;
 }
 
 .responsive2 {
     display: none;
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:600px) {
     .contenedorMenu {
         background-color: greenyellow;
+        display: block;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .elemento {
+        text-align: left;
         display: block;
     }
     .responsive1 {
