@@ -1,0 +1,25 @@
+.elemento {
+    margin: 10px
+}
+
+.contenedorMenu {
+    background-color: rebeccapurple;
+    display: inline-block;
+}
+
+.responsive2 {
+    display: none;
+}
+
+@media only screen and (max-width:500px) {
+    .contenedorMenu {
+        background-color: greenyellow;
+        display: block;
+    }
+    .responsive1 {
+        display: none;
+    }
+    .responsive2 {
+        display: block;
+    }
+}
